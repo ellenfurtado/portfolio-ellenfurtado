@@ -8,6 +8,7 @@ backgroundImage:
   backgroundPosition: center
   backgroundRepeat: no-repeat
   opacity: 75
+  url: /images/imagem_2025-02-10_141536450.png
 sections:
   - elementId: ''
     colors: colors-f
