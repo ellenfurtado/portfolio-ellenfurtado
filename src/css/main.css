@@ -1,3 +1,137 @@
+/* Adicione esta linha para importar a fonte Work Sans do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply flex flex-col min-h-screen antialiased;
+        /* Adicione a nova fonte aqui */
+        font-family: 'Work Sans', sans-serif;
+    }
+    body > div,
+    .sb-page,
+    .sb-base {
+        @apply flex flex-col grow;
+    }
+    .sb-layout {
+        @apply grow;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @apply break-words;
+        line-height: 1.15;
+    }
+}
+
+@layer components {
+    .sb-markdown {
+        @apply text-lg leading-relaxed;
+        a {
+            @apply underline;
+        }
+        a:hover {
+            @apply no-underline;
+        }
+        b,
+        strong {
+            @apply font-medium;
+        }
+        em {
+            @apply italic;
+        }
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            margin: 2.5rem 0 1.5rem;
+        }
+        p {
+            margin: 1.5rem 0;
+        }
+        ol {
+            @apply list-decimal;
+            margin: 1.5rem 0;
+            padding-left: 1.25em;
+        }
+        ul {
+            @apply list-disc;
+            margin: 1.5rem 0;
+            padding-left: 1.25em;
+        }
+        li > ul,
+        li > ol {
+            margin: 0;
+        }
+        blockquote {
+            @apply border-l-4 border-current;
+            font-size: 1.25em;
+            line-height: 1.4;
+            margin: 2.5rem 0;
+            padding-left: 1.25em;
+        }
+        pre {
+            @apply overflow-x-auto leading-normal border border-current;
+            font-size: 0.875em;
+            margin: 1.5rem 0;
+            padding: 1.25em;
+        }
+        hr {
+            @apply h-px bg-current border-0;
+            margin: 2.5rem 0;
+        }
+        figure {
+            margin: 1.5rem 0;
+        }
+        figcaption {
+            @apply leading-normal;
+            font-size: 0.875em;
+            margin: 0.5rem 0 0;
+        }
+        table {
+            @apply w-full text-left border border-collapse border-current;
+            margin: 1.5rem 0;
+        }
+        caption {
+            @apply text-left;
+            font-size: 0.875em;
+            margin: 0 0 0.5rem;
+        }
+        th,
+        td {
+            @apply border-b border-r border-current;
+            padding: 0.5em;
+        }
+        th {
+            font-weight: medium;
+        }
+        h1:first-child,
+        h2:first-child,
+        h3:first-child,
+        h4:first-child,
+        h5:first-child,
+        h6:first-child,
+        p:first-child,
+        ul:first-child,
+        ol:first-child,
+        blockquote:first-child,
+        pre:first-child,
+        hr:first-child,
+        figure:first-child,
+        table:first-child {
+            margin-top: 0;
+        }
+    }
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,400;0,500;1,400;1,500&family=DM+Mono:ital,wght@0,400;0,500;1,400;1,500&display=swap');
 
 @tailwind base;
