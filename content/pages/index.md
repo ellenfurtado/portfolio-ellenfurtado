@@ -44,7 +44,16 @@ sections:
       actions:
         justifyContent: flex-start
     type: HeroSection
-    actions: []
+    actions:
+      - type: Button
+        label: Learn more
+        altText: ''
+        url: /sdadasd
+        showIcon: false
+        icon: arrowRight
+        iconPosition: right
+        style: primary
+        elementId: ''
     text: |
       asdadasd
   - colors: colors-f
