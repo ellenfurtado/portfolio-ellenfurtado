@@ -2,7 +2,7 @@
 type: ProjectLayout
 title: 'NCI: Núcleo de Capacitação Inclusiva'
 colors: colors-a
-date: '2021-12-20'
+date: '2021-01-20'
 client: Universidade Positivo
 description: >-
   Plataforma online criada para capacitar professores da Universidade Positivo
