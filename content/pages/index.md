@@ -84,7 +84,7 @@ sections:
       actions:
         justifyContent: flex-end
     subtitle: Projetos
-    title: '='
+    title: ''
   - type: FeaturedPostsSection
     elementId: ''
     colors: colors-f
