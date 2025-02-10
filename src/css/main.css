@@ -1,10 +1,12 @@
-/* edição da fonte e fundo */
+/* Importação da fonte personalizada */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+/* Tailwind CSS base, components e utilities */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* Customizações de estilo base */
 @layer base {
     body {
         @apply flex flex-col min-h-screen antialiased;
@@ -31,6 +33,7 @@
     }
 }
 
+/* Customizações de componentes */
 @layer components {
     /* Itens de destaque */
     .highlight {
@@ -144,4 +147,81 @@
             margin-top: 0;
         }
     }
+}
+
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: 'YourCustomFont', sans-serif; /* Certifique-se de que a fonte personalizada está definida corretamente */
+  background-color: #0c0c0c;
+  color: #FBFFF2;
+}
+
+/* Link styling */
+a {
+  color: #fa4500; /* Cor padrão dos links */
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Adiciona transição suave para hover */
+}
+
+a:hover {
+  color: #FBFFF2; /* Cor durante o hover */
+  background-color: #221fff; /* Fundo durante o hover */
+}
+
+/* Button styling */
+button {
+  background-color: #fa4500;
+  color: #FBFFF2;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Adiciona transição suave para hover */
+}
+
+button:hover {
+  color: #FBFFF2; /* Cor durante o hover */
+  background-color: #221fff; /* Fundo durante o hover */
+}
+
+/* Additional styling */
+.header {
+  background-color: #0c0c0c;
+  color: #FBFFF2;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer {
+  background-color: #0c0c0c;
+  color: #FBFFF2;
+  padding: 10px;
+  text-align: center;
+}
+
+.container {
+  padding: 20px;
+  background-color: #0c0c0c;
+  color: #FBFFF2;
+}
+
+.primary {
+  background-color: #fa4500;
+  color: #FBFFF2;
+}
+
+.secondary {
+  background-color: #221fff;
+  color: #050806;
+}
+
+.complementary {
+  background-color: #565862;
+  color: #FBFFF2;
 }
