@@ -3,7 +3,7 @@ type: ProjectLayout
 title: Redesign de Identidade Visual – Osho Nirvano
 colors: colors-a
 date: '2022-01-22'
-client: Awesome client
+client: Osho Nirvano
 description: >-
   Projeto de redesign da identidade visual do centro de meditação Osho Nirvano,
   focado em transmitir serenidade e acolhimento. A nova identidade busca
