@@ -1,6 +1,6 @@
 ---
 type: ProjectLayout
-title: Cobertura fotográfica
+title: Cobertura fotográfica de evento musical
 colors: colors-a
 date: '2021-10-15'
 client: Awesome client
