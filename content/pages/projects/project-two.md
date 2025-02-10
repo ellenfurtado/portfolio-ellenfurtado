@@ -10,7 +10,7 @@ description: >-
   recursos multimodais e conteúdo educativo.
 featuredImage:
   type: ImageBlock
-  url: /images/bg2.jpg
+  url: /images/imagem_2025-02-10_014308988.png
   altText: Project thumbnail image
 media:
   type: ImageBlock
