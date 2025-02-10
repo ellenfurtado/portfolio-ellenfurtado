@@ -5,8 +5,8 @@ colors: colors-a
 date: '2021-10-15'
 client: Awesome client
 description: >-
-  Cobertura Fotográfica: Apresentação das Bandas Vicenzo & Os Jaguaras, Amaral
-  Vilho e Mothership Connection
+  Apresentação das Bandas Vicenzo & Os Jaguaras, Amaral Vilho e Mothership
+  Connection
 featuredImage:
   type: ImageBlock
   url: /images/bg1.jpg
