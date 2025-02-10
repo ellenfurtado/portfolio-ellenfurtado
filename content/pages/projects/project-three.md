@@ -1,14 +1,17 @@
 ---
 type: ProjectLayout
-title: One more cool project
+title: Redesign de Identidade Visual – Osho Nirvano
 colors: colors-a
 date: '2022-01-22'
-client: Awesome client
+client: Osho Nirvano
 description: >-
-  It’s hard to imagine that I’ve that I wrote all this code by myself, probably because I worked with an entire team :) but they definitely followed my lead most of the time.
+  Projeto de redesign da identidade visual do centro de meditação Osho Nirvano,
+  focado em transmitir serenidade e acolhimento. A nova identidade busca
+  refletir os valores de equilíbrio e conexão com o autoconhecimento, criando
+  uma imagem mais moderna e harmoniosa para o centro.
 featuredImage:
   type: ImageBlock
-  url: /images/bg3.jpg
+  url: /images/imagem_2025-02-10_014600395.png
   altText: Project thumbnail image
 media:
   type: ImageBlock

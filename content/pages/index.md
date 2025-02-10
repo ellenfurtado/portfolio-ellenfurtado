@@ -4,7 +4,6 @@ title: Home
 colors: colors-a
 backgroundImage:
   type: BackgroundImage
-  url: /images/bg1.jpg
   backgroundSize: cover
   backgroundPosition: center
   backgroundRepeat: no-repeat
@@ -15,9 +14,10 @@ sections:
     backgroundSize: full
     title: 'design, branding e impacto social'
     subtitle: >-
-      This is my info—I’m sharing it all this with ya’ll to impress you with all
-      the hard work I’ve done in the past few years. Once you’re impressed, you
-      can continue to scroll down to see more details and credentials about me.
+      Artista visual e designer multidisciplinar, integro metodologias de
+      experiência do cliente, estratégia de marca, marketing e design para levar
+      propostas às pessoas certas, conectando-se de maneira autêntica e
+      impactante. 
     styles:
       self:
         height: auto
@@ -45,6 +45,7 @@ sections:
         justifyContent: flex-start
     type: HeroSection
     actions: []
+    text: ''
   - colors: colors-f
     type: FeaturedProjectsSection
     elementId: ''
@@ -82,7 +83,8 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-end
-    subtitle: Projects
+    subtitle: Projetos
+    title: ''
   - type: FeaturedPostsSection
     elementId: ''
     colors: colors-f

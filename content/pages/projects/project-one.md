@@ -1,11 +1,13 @@
 ---
 type: ProjectLayout
-title: A very cool code project
+title: Cobertura fotográfica de evento musical
 colors: colors-a
 date: '2021-10-15'
-client: Awesome client
+client: Bandas locais
 description: >-
-  It’s hard to imagine that I’ve that I wrote all this code by myself, probably because I worked with an entire team :) but they definitely followed my lead most of the time.
+  Cobertura do evento realizado no É Dino Cultural, com destaque para as
+  apresentações das bandas Vicenzo & Os Jaguaras, Amaral Vilho e Mothership
+  Connection.
 featuredImage:
   type: ImageBlock
   url: /images/bg1.jpg

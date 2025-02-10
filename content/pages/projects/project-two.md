@@ -1,14 +1,16 @@
 ---
 type: ProjectLayout
-title: Another cool project
+title: 'NCI: Núcleo de Capacitação Inclusiva'
 colors: colors-a
-date: '2021-12-20'
-client: Awesome client
+date: '2024-11-20'
+client: Universidade Positivo
 description: >-
-  It’s hard to imagine that I’ve that I wrote all this code by myself, probably because I worked with an entire team :) but they definitely followed my lead most of the time.
+  Plataforma online criada para capacitar professores da Universidade Positivo
+  sobre inclusão de alunos com neurodivergência e deficiência, oferecendo
+  recursos multimodais e conteúdo educativo.
 featuredImage:
   type: ImageBlock
-  url: /images/bg2.jpg
+  url: /images/imagem_2025-02-10_014308988.png
   altText: Project thumbnail image
 media:
   type: ImageBlock
