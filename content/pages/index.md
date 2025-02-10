@@ -51,7 +51,7 @@ sections:
     elementId: ''
     actions:
       - type: Link
-        label: See all projects
+        label: VEJA TODOS OS PROJETOS
         url: /projects
     showDate: false
     showDescription: true
