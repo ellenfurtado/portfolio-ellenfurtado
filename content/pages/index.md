@@ -6,7 +6,7 @@ sections:
   - elementId: ''
     colors: colors-f
     backgroundSize: full
-    title: "design, branding e\_ impacto social"
+    title: 'design, branding e impacto social'
     subtitle: >-
       Artista visual e designer multidisciplinar, integro metodologias de
       experiência do cliente, estratégia de marca, marketing e design para levar
