@@ -5,8 +5,9 @@ colors: colors-a
 date: '2021-10-15'
 client: Awesome client
 description: >-
-  Apresentação das Bandas Vicenzo & Os Jaguaras, Amaral Vilho e Mothership
-  Connection
+  Cobertura do evento realizado no É Dino Cultural, com destaque para as
+  apresentações das bandas Vicenzo & Os Jaguaras, Amaral Vilho e Mothership
+  Connection.
 featuredImage:
   type: ImageBlock
   url: /images/bg1.jpg
