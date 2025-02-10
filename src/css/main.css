@@ -5,7 +5,9 @@
 @tailwind utilities;
 
 @layer base {
-    body {
+body {
+  font-family: "Work Sans", sans-serif;
+}
         @apply flex flex-col min-h-screen antialiased;
     }
     body > div,
