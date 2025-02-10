@@ -1,4 +1,4 @@
-/* COPILOT */
+/* edição da fonte e fundo */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 @tailwind base;
@@ -8,8 +8,9 @@
 @layer base {
     body {
         @apply flex flex-col min-h-screen antialiased;
-        /* Adicione a nova fonte aqui */
         font-family: 'Work Sans', sans-serif;
+        background-color: #0c0c0c; /* Define a cor de fundo do site */
+        color: #FBFFF2; /* Define a cor do texto */
     }
     body > div,
     .sb-page,
@@ -31,10 +32,16 @@
 }
 
 @layer components {
+    /* Itens de destaque */
+    .highlight {
+        color: #FBFFF2; /* Define a cor dos itens de destaque */
+    }
+
     .sb-markdown {
         @apply text-lg leading-relaxed;
         a {
             @apply underline;
+            color: #FBFFF2; /* Define a cor dos links */
         }
         a:hover {
             @apply no-underline;
@@ -42,9 +49,11 @@
         b,
         strong {
             @apply font-medium;
+            color: #FBFFF2; /* Define a cor dos textos em negrito */
         }
         em {
             @apply italic;
+            color: #FBFFF2; /* Define a cor dos textos em itálico */
         }
         h1,
         h2,
@@ -77,12 +86,15 @@
             line-height: 1.4;
             margin: 2.5rem 0;
             padding-left: 1.25em;
+            color: #FBFFF2; /* Define a cor dos blockquotes */
         }
         pre {
             @apply overflow-x-auto leading-normal border border-current;
             font-size: 0.875em;
             margin: 1.5rem 0;
             padding: 1.25em;
+            background-color: #0c0c0c; /* Define a cor de fundo dos blocos de código */
+            color: #FBFFF2; /* Define a cor dos blocos de código */
         }
         hr {
             @apply h-px bg-current border-0;
@@ -95,10 +107,12 @@
             @apply leading-normal;
             font-size: 0.875em;
             margin: 0.5rem 0 0;
+            color: #FBFFF2; /* Define a cor das legendas das figuras */
         }
         table {
             @apply w-full text-left border border-collapse border-current;
             margin: 1.5rem 0;
+            color: #FBFFF2; /* Define a cor das tabelas */
         }
         caption {
             @apply text-left;
