@@ -5,13 +5,9 @@ colors: colors-a
 date: '2021-12-20'
 client: Universidade Positivo
 description: >-
-  O projeto NCI (Núcleo de Capacitação Inclusiva) foi desenvolvido para
-  capacitar professores da Universidade Positivo a entender e incluir alunos com
-  neurodivergência e deficiência. Pensado a partir da liberdade criativa
-  oferecida pela matéria “Soluções: Instruir”, a equipe optou por criar uma
-  plataforma online interativa. O site oferece recursos multimodais e conteúdo
-  educativo, proporcionando um espaço acessível para o aprendizado contínuo dos
-  docentes sobre inclusão no ambiente acadêmico.
+  Plataforma online criada para capacitar professores da Universidade Positivo
+  sobre inclusão de alunos com neurodivergência e deficiência, oferecendo
+  recursos multimodais e conteúdo educativo.
 featuredImage:
   type: ImageBlock
   url: /images/bg2.jpg
