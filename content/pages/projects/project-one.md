@@ -1,8 +1,6 @@
 ---
 type: ProjectLayout
-title: >-
-  Cobertura Fotográfica: Apresentação das Bandas Vicenzo & Os Jaguaras, Amaral
-  Vilho e Mothership Connection
+title: ''
 colors: colors-a
 date: '2021-10-15'
 client: Awesome client
