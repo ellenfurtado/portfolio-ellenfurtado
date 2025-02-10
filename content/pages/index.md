@@ -45,11 +45,7 @@ sections:
         justifyContent: flex-start
     type: HeroSection
     actions: []
-    text: >
-      Artista e profissional de comunicação multidisciplinar, integro
-      metodologias de experiência do cliente, estratégia de marca, marketing e
-      design para levar propostas às pessoas certas, conectando-se de maneira
-      autêntica e impactante. 
+    text: ''
   - colors: colors-f
     type: FeaturedProjectsSection
     elementId: ''
