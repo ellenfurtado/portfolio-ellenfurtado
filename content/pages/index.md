@@ -14,10 +14,10 @@ sections:
     backgroundSize: full
     title: 'design, branding e impacto social'
     subtitle: >-
-      This is my info — I’m sharing it all this with ya’ll to impress you with
-      all the hard work I’ve done in the past few years. Once you’re impressed,
-      you can continue to scroll down to see more details and credentials about
-      me.
+      Artista visual e designer multidisciplinar, integro metodologias de
+      experiência do cliente, estratégia de marca, marketing e design para levar
+      propostas às pessoas certas, conectando-se de maneira autêntica e
+      impactante. 
     styles:
       self:
         height: auto
