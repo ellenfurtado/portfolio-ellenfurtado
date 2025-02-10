@@ -189,7 +189,7 @@ sections:
         textAlign: left
 backgroundImage:
   type: BackgroundImage
-  url: /images/bg2.jpg
+  url: /images/imagem_2025-02-10_141536450.png
   backgroundSize: cover
   backgroundPosition: center
   backgroundRepeat: no-repeat
