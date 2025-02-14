@@ -10,7 +10,7 @@ description: >-
   Connection.
 featuredImage:
   type: ImageBlock
-  url: /images/bg1.jpg
+  url: /images/DSC05918 (1).jpg
   altText: Project thumbnail image
 media:
   type: ImageBlock
