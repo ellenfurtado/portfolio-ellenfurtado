@@ -11,7 +11,7 @@ description: >-
   uma imagem mais moderna e harmoniosa para o centro.
 featuredImage:
   type: ImageBlock
-  url: /images/imagem_2025-02-10_014600395.png
+  url: /images/Design sem nome.jpg
   altText: Project thumbnail image
 media:
   type: ImageBlock
